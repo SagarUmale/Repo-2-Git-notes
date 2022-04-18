@@ -1,0 +1,44 @@
+              What is VCS?
+
+VCS stands for version control system.
+
+There are 3 types VCS
+
+1.Local VCS:-
+locla vcs are totaly depends upon backend database,it's pull the file
+or folder and also push it similarlly,and main thing of local vcs it's
+track the data. it's a first concept who is that much capacity to do
+this type data fetching.
+
+but the main drtew back is if your local sys is damaged your total data was destroy,
+nad we have no optuion to recover this data gain. nad second drawback is you don not
+sagre your data any device.
+
+adv:- Roll back is avialable in loacla vcs.
+
+2.Centralized VCS:-Centralized VCS are totaly depends upon  server, and main thing 
+is one to many person are at a time a are used this server for pusg and pull the files,and 
+iy's track the file date also person name who is changes tha data as wll as,
+
+if server was damaged all data was deleted,but only few imp data are saved by any user, if he/she knows 
+that matter,and in the case of server if many person are worked at a time,it's very slow to push and pull method.
+
+3.Distributed VCS:-Distributed VCS are totaly depends upon cloud,and every data are separated 
+by each developer,who is working in own project.if one side of cloud was crashed,so that ni impact other data,
+and other data are saved by the could and local system.
+
+
+
+
+Pratical:-
+
+Identity provides to git
+there two identity provides to git one is name another is email id.
+
+git config --global user.name "your_name"
+git config --global user.email "your@gmail.com"
+
+how check?
+git config user.name
+git config user.email
+
